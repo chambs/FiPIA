@@ -1,0 +1,30 @@
+{
+  "name": "fipia",
+  "description": "First project in ages",
+  "main": "index.js",
+  "authors": [
+    "Willian Carvalho"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "firs",
+    "project",
+    "in",
+    "ages",
+    "es6",
+    "something",
+    "else"
+  ],
+  "homepage": "https://github.com/chambs/FiPIA",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "^2.1.22"
+  }
+}
