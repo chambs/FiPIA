@@ -7,7 +7,7 @@ var oldJS = (function () {
 	}
 
 	function rnd () {
-		closure_(function (data) {
+		closure_((data) => {
 			console.log(data);
 		});
 	}
@@ -17,4 +17,4 @@ var oldJS = (function () {
 	};
 }());
 
-export default oldJS;
+module.exports = oldJS;

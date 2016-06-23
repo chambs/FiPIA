@@ -1,3 +1,4 @@
-import oldJS from 'old.js'
+var oldJS = require('./old.js');
 
-console.log(oldJS);
+console.log('using oldJS...');
+oldJS.rnd();

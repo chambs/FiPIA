@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "babel src/js -d lib",
-    "minify": "npm run transpile && uglifyjs lib/app.js > dist/app.min.js",
-    "build": "npm run transpile && npm run minify"
+    "webpack": "webpack",
+    "minify": "uglifyjs dist/app.bundle.js > dist/app.min.js",
+    "build": "npm run transpile && npm run webpack && npm run minify"
+
   },
   "repository": {
     "type": "git",
